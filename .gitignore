@@ -1,0 +1,19 @@
+# CMake build artifacts
+build/
+.qt/
+
+# Compiled objects / libraries
+*.o
+*.a
+*.so
+
+# Qt Creator / CMake user files
+CMakeLists.txt.user
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.code-workspace
