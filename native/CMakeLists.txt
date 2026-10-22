@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.20)
+project(caffeine_timer LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_AUTOMOC ON)
+find_package(Qt6 REQUIRED COMPONENTS Core DBus Network)
+add_executable(caffeine-timer-helper main.cpp)
+target_link_libraries(caffeine-timer-helper PRIVATE Qt6::Core Qt6::DBus Qt6::Network)

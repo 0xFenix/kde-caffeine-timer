@@ -1,0 +1,14 @@
+{
+  "KPlugin": {
+    "Id": "org.local.caffeinetimer",
+    "Name": "Caffeine Timer",
+    "Description": "Timed KDE power and screen inhibition without Python",
+    "Icon": "preferences-system-power-management",
+    "Category": "System Information",
+    "Version": "2.0.0",
+    "License": "MIT",
+    "Authors": [{"Name":"Caffeine Timer"}]
+  },
+  "KPackageStructure": "Plasma/Applet",
+  "X-Plasma-API-Minimum-Version": "6.0"
+}
